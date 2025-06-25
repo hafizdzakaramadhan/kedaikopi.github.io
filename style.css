@@ -499,6 +499,12 @@ button:hover{
 .map{
     width: 500px ;
 }
+
+.about-content, .about-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
     
 }
 

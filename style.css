@@ -266,14 +266,16 @@ footer{
     width: 500px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .contact-number p{
     padding-top: 30px;
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .contact-form{
@@ -438,7 +440,14 @@ button:hover{
 .media-social-icons a{
     font-size: 20px;
 }
+
+.contact-number{
+    margin-bottom: 20px;
+}
+.contact-number p{
     
+    text-align: center;
+}
 }
 
 @media (max-width:648px){

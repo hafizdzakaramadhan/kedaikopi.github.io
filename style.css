@@ -528,6 +528,37 @@ button:hover{
         padding-top: 250px;
     }
 }
+@media (max-width:320px){
+    .about-img img{
+    width: 200px;
+}
+    .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content-par{
+        text-align: center;
+    }
+    .contact.content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map{
+        width: 200px;
+    }
+
+    .header-content{
+        padding-top: 250px;
+    }
+
+    .contact-form input{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
 @media (max-width:540px){
     .about-img img{
@@ -548,7 +579,7 @@ button:hover{
     }
 
     .map{
-        width: auto;
+        width: 200px;
     }
 
     .header-content{

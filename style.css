@@ -347,6 +347,14 @@ button:hover{
     flex-direction: row;
 }
 
+.contact-map{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -528,6 +536,7 @@ button:hover{
 
     .map{
         width: 200px;
+        margin-left: 10%;
     }
 
     .header-content{

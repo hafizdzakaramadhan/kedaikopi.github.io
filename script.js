@@ -32,3 +32,37 @@ window.addEventListener("scroll", (e) => {
 	speed: 1000,
 	speedAsDuration: true
 });
+
+//ANIMATION ON SCROll
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) =>{
+        if (entry.isIntersecting){
+            entry.target.classList.add("show");
+        } 
+    });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe (el));
+
+
+
+//AOS & GSAP
+
+AOS.init();
+
+gsap.from(".header-content-1", {
+    opacity: 0,
+    y: 10,
+    delay: 1.5,
+    duration: 0.5,
+})
+
+gsap.from(".header-content-par", {
+    opacity: 0,
+    y: -10,
+    delay: 0.5,
+    duration: 0.5,
+})
+

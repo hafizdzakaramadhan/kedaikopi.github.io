@@ -17,6 +17,9 @@
 
     <!--Smooth Scroll-->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!--Animate On Scroll CSS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     
 
 </head>
@@ -39,22 +42,22 @@
         </div>
         
         <div class="header-content">
-            <h1>kedaikopi</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse deserunt iste sunt consequatur sequi harum ex, ducimus quidem consequuntur, qui reprehenderit alias quas magni quibusdam? Velit quae repudiandae iure temporibus.</p>
+            <h1 class="header-content-1">kedaikopi</h1>
+            <p class="header-content-par">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse deserunt iste sunt consequatur sequi harum ex, ducimus quidem consequuntur, qui reprehenderit alias quas magni quibusdam? Velit quae repudiandae iure temporibus.</p>
         </div>
     </header>
 
     <!--About Section-->
 
-    <section class="about" id="about">
-        <div class="about-title">
+    <section class="about " id="about">
+        <div class="about-title hidden">
             <h1>About Us</h1>
         </div>
         <div class="about-content">
-            <div class="about-img">
+            <div class="about-img hidden ">
                 <img src="img/kopi1.jpg" alt="">
             </div>
-        <div class="about-box">
+        <div class="about-box hidden">
             <div class="about-content-par">
                 <div class="title-content">
                     <h3>Experienced Staff</h3>
@@ -89,42 +92,42 @@
     <!--Menu Section-->
 
     <section class="menu" id="menu">
-        <div class="menu-title">
+        <div class="menu-title hidden">
             <h1>Our Menu</h1>
         </div>
         <div class="menu-container">
-            <div class="menu-box">
-                <div class="menu-img">
+            <div class="menu-box hidden">
+                <div class="menu-img ">
                     <img src="img/1.jpg" alt="">
                 </div>
-                <div class="menu-content">
+                <div class="menu-content hidden">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem voluptatibus ipsa ipsam corrupti officiis!</p>
                     <button>Read More</button>
                 </div>
             </div>
-            <div class="menu-box">
+            <div class="menu-box hidden">
                 <div class="menu-img">
                     <img src="img/2.jpg" alt="">
                 </div>
-                <div class="menu-content">
+                <div class="menu-content hidden">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem voluptatibus ipsa ipsam corrupti officiis!</p>
                     <button>Read More</button>
                 </div>
             </div>
-            <div class="menu-box">
+            <div class="menu-box hidden">
                 <div class="menu-img">
                     <img src="img/3.jpg" alt="">
                 </div>
-                <div class="menu-content">
+                <div class="menu-content hidden">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem voluptatibus ipsa ipsam corrupti officiis!</p>
                     <button>Read More</button>
                 </div>
             </div>
-            <div class="menu-box">
+            <div class="menu-box hidden">
                 <div class="menu-img">
                     <img src="img/4.jpg" alt="">
                 </div>
-                <div class="menu-content">
+                <div class="menu-content hidden">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem voluptatibus ipsa ipsam corrupti officiis!</p>
                     <button>Read More</button>
                 </div>
@@ -134,16 +137,16 @@
 
     <!--Contact Section-->
 
-    <section class="Contact" id="contact">
-         <div class="contact-title">
+    <section class="contact" id="contact">
+         <div class="contact-title hidden">
             <h1>Find Us</h1>
         </div>
-        <div class="contact-content">
+        <div class="contact-content hidden">
             <div class="contact-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.5621104214!2d107.64315755000001!3d-6.903449449999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1748747995164!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
             </div>
         </div>
-        <div class="contact-box">
+        <div class="contact-box hidden">
             
             <div class="contact-number">
                 <p>+62 12874749598</p>
@@ -185,7 +188,11 @@
 
 
 
+    <!--Animate On Scroll JS CDN-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!--GSAP CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
 
     <!--feather icons-->
     <script>
